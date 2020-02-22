@@ -696,7 +696,8 @@
         color: var(--main-font-color);
     }
     
-    @media screen and (min-width: 700px) {
+    @media only screen and (max-width: 760px),
+    (min-device-width: 350px) and (max-device-width: 1024px) {
         header,
         .between-sec {
             background-attachment: fixed;
@@ -737,7 +738,8 @@
             align-items: center;
         }
         #personalinformation {
-            width: 50%;
+            width: 20%;
+            padding-left: 50%;
         }
         .centerr {
             width: 800px;
