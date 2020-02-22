@@ -7,6 +7,10 @@
         box-sizing: border-box;
     }
     
+    body {
+        width: 100%;
+    }
+    
     html {
         font-size: 10px;
         font-family: Arial, Helvetica, sans-serif;
@@ -167,43 +171,6 @@
         transition: all 1s ease 3s;
         /*border-bottom: 1px solid orange;*/
         /*width: 100px;*/
-    }
-    
-    .content-hidden .fly-in-text li {
-        opacity: 0;
-    }
-    
-    .content-hidden .fly-in-text li:nth-child(1) {
-        transform: translate3d(-60px, 0, 0);
-    }
-    
-    .content-hidden .fly-in-text li:nth-child(2) {
-        transform: translate3d(-30px, 0, 0);
-    }
-    
-    .content-hidden .fly-in-text li:nth-child(3) {
-        transform: translate3d(0px, 0, 0);
-    }
-    
-    .content-hidden .fly-in-text li:nth-child(4) {
-        transform: translate3d(30px, 0, 0);
-    }
-    
-    .content-hidden .fly-in-text li:nth-child(5) {
-        transform: translate3d(60px, 0, 0);
-    }
-    
-    .content-hidden .fly-in-text li:nth-child(6) {
-        transform: translate3d(30px, 0, 0);
-    }
-    
-    .content-hidden .fly-in-text li:nth-child(7) {
-        transform: translate3d(60px, 0, 0);
-    }
-    
-    .content-hidden .enter-button {
-        opacity: 0;
-        transform: translate3d(0, -30px, 0);
     }
     
     .btn {
@@ -696,29 +663,7 @@
         color: var(--main-font-color);
     }
     
-    @media screen and (min-width: 800px) {
-        @import url('https://fontscogoogleapis.com/css?family=Raleway:200,100,400');
-        *,
-        *::before,
-        *::after {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        html {
-            font-size: 10px;
-            font-family: Arial, Helvetica, sans-serif;
-            scroll-behavior: smooth;
-            /* background-color: #4d4d4d; */
-        }
-         :root {
-            --main-font-color: #f2b632;
-            --main-white: white;
-            --main-font-dark-gray: #4d4d4d;
-            --main-footer-bg-color: #141414;
-            --main-font_family: "SF Pro Display", Light;
-            /*background-color: #191919;*/
-        }
+    @media screen and (max-width: 600px) {
         header,
         .between-sec {
             background-attachment: fixed;
@@ -790,10 +735,6 @@
             transform: translateY(4rem);
             opacity: 0;
             animation: .5s fadeUp .5s forwards;
-        }
-        .welcome-section {
-            width: 100%;
-            height: 100%;
         }
         .main-text h2 {
             transform: scale(2);
