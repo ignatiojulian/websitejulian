@@ -165,15 +165,10 @@
 
                                     <!-- <h3 id="subtitleexperience" data-aos="fade-up" data-aos-mirror="false">
                                         Personal Information</h3> -->
-                                    <table id="personalinformation" class="centerr content-table" data-aos="fade-up" data-aos-mirror="false">
+                                    <!-- <table id="personalinformation" class="centerr content-table" data-aos="fade-up" data-aos-mirror="false">
                                         <thead>
                                             <tr>
                                                 <th colspan="2">Personal Information</th>
-                                                <!-- <th>Ignatio Julian Tara</th>
-                                                <th>Based on</th>
-                                                <th>Major</th>
-                                                <th>Phone</th>
-                                                <th>University</th> -->
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -200,7 +195,7 @@
                                             </tr>
                                         </tbody>
 
-                                    </table>
+                                    </table> -->
 
                                     <!-- <div class="row">
                                         <div class="col-sm-6">
@@ -405,7 +400,7 @@
     </section>
 
 
-    <section id="edu">
+    <!-- <section id="edu">
 
         <h1 class="custom-font underline">Education & Experience</h1>
         <div class="sub">
@@ -523,7 +518,7 @@
             </tbody>
         </table>
 
-    </section>
+    </section> -->
 
 
 
