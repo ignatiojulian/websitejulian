@@ -736,6 +736,9 @@
             flex-direction: row;
             align-items: center;
         }
+        #personalinformation {
+            width: 50%;
+        }
         .centerr {
             width: 800px;
         }
