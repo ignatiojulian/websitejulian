@@ -10,6 +10,7 @@
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    
     <!-- <style>
        /* Set the size of the div element that contains the map */
       #map {
